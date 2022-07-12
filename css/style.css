@@ -1,0 +1,677 @@
+/*reset*/
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+ /*estilos del header*/
+header{
+   background-color: rgb(47, 49, 46) ;
+   font-family: 'Josefin Sans', sans-serif;
+
+}
+ /*ESTILO DEL HTML INDEX*/
+body{
+    background-color: black;
+    font-family: 'Josefin Sans', sans-serif;
+  
+}
+
+span{
+    color:rgb(73, 255, 41);
+}
+
+    
+/*estilo de ul*/
+header nav ul {  
+   
+    padding: 1rem;
+    gap: 1rem;
+      
+}
+
+/*estilos del los >li*/
+li{   
+   
+    list-style: none;   
+    font-size: 1rem;
+    padding: 0.5rem;
+
+   
+
+ }
+/*enlaces del navegador*/
+ .enlaces{
+    text-decoration: none;
+    color: rgb(238, 238, 238);
+   
+ }
+ h1{
+    padding: 1rem;
+ }
+
+
+/* estilo del main del HTML inicio */
+
+.subTitulo{
+    margin: 2rem;
+    color: aliceblue;
+}
+
+ /*GRID de index.html*/
+.mainInicio{
+    display:grid ;
+    grid-template-columns: auto auto ;
+    grid-template-rows: auto auto;
+    grid-template-areas:"top1 top2"
+                        "top3 top4"
+                        "top5 top6"
+                        "top7 top8"
+                        "top9 top10" ;
+
+}
+
+/*estilos de los tops 10 crypto*/
+/*TOP 1 AL 10*/
+.tops1{
+    grid-area: top1;
+    background-color:rgba(73, 69, 69, 0.85);
+    padding: 0.50rem;
+    margin: 0.50rem;
+    border-radius:0.10rem ;
+    color: rgb(249, 249, 249);
+    display: inline-block;
+    text-align: center;
+    box-shadow: 1px 1px 4px 0.50px rgb(51, 222, 29);
+}
+.tops2{
+    grid-area: top2;
+    background-color:rgba(73, 69, 69, 0.85);
+    padding: 0.50rem;
+    margin: 0.50rem;
+    border-radius:0.10rem ;
+    color: rgb(249, 249, 249);
+    display: inline-block;
+    text-align: center;
+    box-shadow: 1px 1px 4px 0.50px rgb(51, 222, 29);
+}
+.tops3{
+    grid-area: top3;
+    background-color:rgba(73, 69, 69, 0.85);
+    padding: 0.50rem;
+    margin: 0.50rem;
+    border-radius:0.10rem ;
+    color: rgb(249, 249, 249);
+    display: inline-block;
+    text-align: center;
+    box-shadow: 1px 1px 4px 0.50px rgb(51, 222, 29);
+}
+.tops4{
+    grid-area: top4;
+    background-color:rgba(73, 69, 69, 0.85);
+    padding: 0.50rem;
+    margin: 0.50rem;
+    border-radius:0.10rem ;
+    color: rgb(249, 249, 249);
+    display: inline-block;
+    text-align: center;
+    box-shadow: 1px 1px 4px 0.50px rgb(51, 222, 29);
+}
+.tops5{
+    grid-area: top5;
+    background-color:rgba(73, 69, 69, 0.85);
+    padding: 0.50rem;
+    margin: 0.50rem;
+    border-radius:0.10rem ;
+    color: rgb(249, 249, 249);
+    display: inline-block;
+    text-align: center;
+    box-shadow: 1px 1px 4px 0.50px rgb(51, 222, 29);
+}
+.tops6{
+    grid-area: top6;
+    background-color:rgba(73, 69, 69, 0.85);
+    padding: 0.50rem;
+    margin: 0.50rem;
+    border-radius:0.10rem ;
+    color: rgb(249, 249, 249);
+    display: inline-block;
+    text-align: center;
+    box-shadow: 1px 1px 4px 0.50px rgb(51, 222, 29);
+}
+.tops7{
+    grid-area: top7;
+    background-color:rgba(73, 69, 69, 0.85);
+    padding: 0.50rem;
+    margin: 0.50rem;
+    border-radius:0.10rem ;
+    color: rgb(249, 249, 249);
+    display: inline-block;
+    text-align: center;
+    box-shadow: 1px 1px 4px 0.50px rgb(51, 222, 29);
+}
+.tops8{
+    grid-area: top8;
+    background-color:rgba(73, 69, 69, 0.85);
+    padding: 0.50rem;
+    margin: 0.50rem;
+    border-radius:0.10rem ;
+    color: rgb(249, 249, 249);
+    display: inline-block;
+    text-align: center;
+    box-shadow: 1px 1px 4px 0.50px rgb(51, 222, 29);
+}
+.tops9{
+    grid-area: top9;
+    background-color:rgba(73, 69, 69, 0.85);
+    padding: 0.50rem;
+    margin: 0.50rem;
+    border-radius:0.10rem ;
+    color: rgb(249, 249, 249);
+    display: inline-block;
+    text-align: center;
+    box-shadow: 1px 1px 4px 0.50px rgb(51, 222, 29);
+}
+.tops10{
+    grid-area: top10;
+    background-color:rgba(73, 69, 69, 0.85);
+    padding: 0.50rem;
+    margin: 0.50rem;
+    border-radius:0.10rem ;
+    color: rgb(249, 249, 249);
+    display: inline-block;
+    text-align: center;
+    box-shadow: 1px 1px 4px 0.50px rgb(51, 222, 29);
+}
+
+footer{
+    background-color: rgb(47, 49, 46) ;
+    color: blanchedalmond;
+    padding: 0.50rem;
+}
+
+
+/* ESTILO DEL HTML COMPRA/VENTA*/
+
+/*estilo de el main conteniendo las compras y ventas*/
+.subTitulo2{
+    margin:1rem;
+    color: aliceblue;
+}
+
+/*GRID*/
+.mainCompraVenta{
+    display:grid ;
+    grid-template-columns: auto auto ;
+    grid-template-rows: auto auto ;
+    grid-template-areas: "compraVenta1 compraVenta2"
+                         "compraVenta3 compraVenta4"
+                         "compraVenta5 compraVenta6"
+                         "compraVenta7 compraVenta8"
+                         "compraVenta9 compraVenta10"
+                         "compraVenta11 compraVenta12"
+                         "compraVenta13 compraVenta14"
+                         "compraVenta15 compraVenta16";
+
+}
+
+
+/*estilos de las compra/ventas */
+.compraVenta1{  
+    grid-area:compraVenta1 ; 
+    background-color:rgba(73, 69, 69, 0.85);
+    display: inline-block;
+    text-align: center;   
+    padding: 0.50rem;
+    margin: 0.50rem;
+    gap: 1rem;
+    border-radius: 0.10rem;
+    box-shadow: 1px 1px 4px 0.50px rgb(51, 222, 29);
+    color: blanchedalmond;
+}
+.compraVenta2{  
+    grid-area:compraVenta2 ; 
+    background-color:rgba(73, 69, 69, 0.85);
+    display: inline-block;
+    text-align: center;   
+    padding: 0.50rem;
+    margin: 0.50rem;
+    gap: 1rem;
+    border-radius: 0.10rem;
+    box-shadow: 1px 1px 4px 0.50px rgb(51, 222, 29);
+    color: blanchedalmond;
+}
+.compraVenta3{ 
+    grid-area:compraVenta3 ;  
+    background-color:rgba(73, 69, 69, 0.85);
+    display: inline-block;
+    text-align: center;   
+    padding: 0.50rem;
+    margin: 0.50rem;
+    gap: 1rem;
+    border-radius: 0.10rem;
+    box-shadow: 1px 1px 4px 0.50px rgb(51, 222, 29);
+    color: blanchedalmond;
+}
+.compraVenta4{
+    grid-area:compraVenta4 ;   
+    background-color:rgba(73, 69, 69, 0.85);
+    display: inline-block;
+    text-align: center;   
+    padding: 0.50rem;
+    margin: 0.50rem;
+    gap: 1rem;
+    border-radius: 0.10rem;
+    box-shadow: 1px 1px 4px 0.50px rgb(51, 222, 29);
+    color: blanchedalmond;
+}
+.compraVenta5{
+    grid-area:compraVenta5 ;   
+    background-color:rgba(73, 69, 69, 0.85);
+    display: inline-block;
+    text-align: center;  
+    padding: 0.50rem;
+    margin: 0.50rem;
+    gap: 1rem;
+    border-radius: 0.10rem;
+    box-shadow: 1px 1px 4px 0.50px rgb(51, 222, 29);
+    color: blanchedalmond;
+}
+.compraVenta6{
+    grid-area:compraVenta6 ;   
+    background-color:rgba(73, 69, 69, 0.85);
+    display: inline-block;
+    text-align: center;    
+    padding: 0.50rem;
+    margin: 0.50rem;
+    gap: 1rem;
+    border-radius: 0.10rem;
+    box-shadow: 1px 1px 4px 0.50px rgb(51, 222, 29);
+    color: blanchedalmond;
+}
+.compraVenta7{
+    grid-area:compraVenta7 ;   
+    background-color:rgba(73, 69, 69, 0.85);
+    display: inline-block;
+    text-align: center;    
+    padding: 0.50rem;
+    margin: 0.50rem;
+    gap: 1rem;
+    border-radius: 0.10rem;
+    box-shadow: 1px 1px 4px 0.50px rgb(51, 222, 29);
+    color: blanchedalmond;
+}
+.compraVenta8{
+    grid-area:compraVenta8 ;   
+    background-color:rgba(73, 69, 69, 0.85);
+    display: inline-block;
+    text-align: center;    
+    padding: 0.50rem;
+    margin: 0.50rem;
+    gap: 1rem;
+    border-radius: 0.10rem;
+    box-shadow: 1px 1px 4px 0.50px rgb(51, 222, 29);
+    color: blanchedalmond;
+}
+.compraVenta9{
+    grid-area:compraVenta9 ;   
+    background-color:rgba(73, 69, 69, 0.85);
+    display: inline-block;
+    text-align: center;    
+    padding: 0.50rem;
+    margin: 0.50rem;
+    gap: 1rem;
+    border-radius: 0.10rem;
+    box-shadow: 1px 1px 4px 0.50px rgb(51, 222, 29);
+    color: blanchedalmond;
+}
+.compraVenta10{
+    grid-area:compraVenta10 ;   
+    background-color:rgba(73, 69, 69, 0.85);
+    display: inline-block;
+    text-align: center;    
+    padding: 0.50rem;
+    margin: 0.50rem;
+    gap: 1rem;
+    border-radius: 0.10rem;
+    box-shadow: 1px 1px 4px 0.50px rgb(51, 222, 29);
+    color: blanchedalmond;
+}
+.compraVenta11{
+    grid-area:compraVenta11 ;   
+    background-color:rgba(73, 69, 69, 0.85);
+    display: inline-block;
+    text-align: center;    
+    padding: 0.50rem;
+    margin: 0.50rem;
+    gap: 1rem;
+    border-radius: 0.10rem;
+    box-shadow: 1px 1px 4px 0.50px rgb(51, 222, 29);
+    color: blanchedalmond;
+}
+.compraVenta12{
+    grid-area:compraVenta12 ;   
+    background-color:rgba(73, 69, 69, 0.85);
+    display: inline-block;
+    text-align: center;    
+    padding: 0.50rem;
+    margin: 0.50rem;
+    gap: 1rem;
+    border-radius: 0.10rem;
+    box-shadow: 1px 1px 4px 0.50px rgb(51, 222, 29);
+    color: blanchedalmond;
+}
+.compraVenta13{
+    grid-area:compraVenta13 ;   
+    background-color:rgba(73, 69, 69, 0.85);
+    display: inline-block;
+    text-align: center;  
+    padding: 0.50rem;
+    margin: 0.50rem;
+    gap: 1rem;
+    border-radius: 0.10rem;
+    box-shadow: 1px 1px 4px 0.50px rgb(51, 222, 29);
+    color: blanchedalmond;
+}
+.compraVenta14{
+    grid-area:compraVenta14 ;   
+    background-color:rgba(73, 69, 69, 0.85);
+    display: inline-block;
+    text-align: center;
+    padding: 0.50rem;
+    margin: 0.50rem;
+    gap: 1rem;
+    border-radius: 0.10rem;
+    box-shadow: 1px 1px 4px 0.50px rgb(51, 222, 29);
+    color: blanchedalmond;
+}
+.compraVenta15{
+    grid-area:compraVenta15 ;   
+    background-color:rgba(73, 69, 69, 0.85);
+    display: inline-block;
+    text-align: center;   
+    padding: 0.50rem;
+    margin: 0.50rem;
+    gap: 1rem;
+    border-radius: 0.10rem;
+    box-shadow: 1px 1px 4px 0.50px rgb(51, 222, 29);
+    color: blanchedalmond;
+}
+.compraVenta16{
+    grid-area:compraVenta16 ;   
+    background-color:rgba(73, 69, 69, 0.85);
+    display: inline-block;
+    text-align: center;    
+    padding: 0.50rem;
+    margin: 0.50rem;
+    gap: 1rem;
+    border-radius: 0.10rem;
+    box-shadow: 1px 1px 4px 0.50px rgb(51, 222, 29);
+    color: blanchedalmond;
+}
+
+ /*botones de compra y venta*/
+.botonCompraVenta{
+    display: flex;
+    gap: 1rem; 
+    justify-content: center;
+}
+.botonC{
+
+    background-color: rgb(45, 208, 45) ;
+    border: none;
+    padding: 0.50rem;
+    border-radius: 0.10rem;
+}
+.botonV{
+  
+    background-color:rgb(211, 36, 36);
+    border: none;
+    padding: 0.50rem;
+    border-radius: 0.10rem;
+}
+
+
+/* ESTILO DEL HTML NOTICIAS*/
+
+.noticias{
+    display: grid;
+    grid-template-columns:auto ;
+    grid-template-rows: auto;
+    grid-template-areas:"estiloNoticias1"
+                         "estiloNoticias2"
+                         "estiloNoticias3" ;
+}
+.estiloNoticias1{
+    grid-area: estiloNoticias1 ;
+    background-color: rgba(73, 69, 69, 0.85);
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 0.10rem;
+    box-shadow: 1px 1px 4px 0.50px rgb(51, 222, 29);
+    color: blanchedalmond;
+    
+}   
+.estiloNoticias2{
+    grid-area: estiloNoticias2 ;
+    background-color: rgba(73, 69, 69, 0.85);
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 0.10rem;
+    box-shadow: 1px 1px 4px 0.50px rgb(51, 222, 29);
+    color: blanchedalmond;
+    
+}   
+.estiloNoticias3{
+    grid-area: estiloNoticias3 ;
+    background-color: rgba(73, 69, 69, 0.85);
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 0.10rem;
+    box-shadow: 1px 1px 4px 0.50px rgb(51, 222, 29);
+    color: blanchedalmond;
+    
+}   
+
+
+/*ESTILO DEL HTML APRENDER*/
+.mainAprender{
+    display:grid;
+    grid-template-columns: auto auto ;
+    grid-template-rows: auto auto ;
+    grid-template-areas: "estiloAprender1"
+                         "estiloAprender2"
+                         "estiloAprender3"
+                         "estiloAprender4";
+    
+} 
+
+.estiloAprender1{
+    grid-area: estiloAprender1 ;
+    background-color:rgba(73, 69, 69, 0.85);
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 0.10rem;
+    box-shadow: 1px 1px 4px 0.50px rgb(51, 222, 29);
+    color: blanchedalmond;
+}
+.estiloAprender2{
+    grid-area: estiloAprender2;
+    background-color:rgba(73, 69, 69, 0.85);
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 0.10rem;
+    box-shadow: 1px 1px 4px 0.50px rgb(51, 222, 29);
+    color: blanchedalmond;
+}
+.estiloAprender3{
+    grid-area: estiloAprender3;
+    background-color:rgba(73, 69, 69, 0.85);
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 0.10rem;
+    box-shadow: 1px 1px 4px 0.50px rgb(51, 222, 29);
+    color: blanchedalmond;
+}
+.estiloAprender4{
+    grid-area: estiloAprender4;
+    background-color:rgba(73, 69, 69, 0.85);
+    border-radius: 1rem;
+    margin: 1rem;
+    padding: 2rem;
+    box-shadow: 1px 1px 4px 0.50px rgb(51, 222, 29);
+    color: blanchedalmond;
+}
+
+
+/*ESTILO DEL HTML REGISTRO*/
+main form fieldset{
+    padding: 1rem;
+    margin: 1rem;
+    background-color:rgba(73, 69, 69, 0.85);
+    color: blanchedalmond;
+}
+
+
+main form fieldset div{
+    margin: 1rem;
+    
+
+}
+
+
+/*ESTILO DEL FOOTER*/
+ .redes{
+   padding: 2rem;
+    text-align: end;
+    
+
+ }
+ .imgRedes{
+    height: 2rem;
+    margin: 1rem;
+ }
+
+
+
+ @media screen and (min-width: 576px){
+ /*MEDIA-QUERIES INDEX*/
+ header nav ul{
+    display: flex;
+   justify-content: space-around ;
+   }
+   
+   .mainInicio{
+    grid-template-areas:"top1 top2  top3"
+                        "top4 top5 top6"
+                        "top7 top8 top9"
+                        "top10 top top" ;
+}
+/*MEDIA-QUERIES COMPRA/VENTA*/
+.mainCompraVenta{
+    grid-template-areas: "compraVenta1 compraVenta2 compraVenta3"
+                         "compraVenta4 compraVenta5 compraVenta6"
+                         "compraVenta7 compraVenta8 compraVenta9"
+                         "compraVenta10 compraVenta11 compraVenta12"
+                         "compraVenta13 compraVenta14 compraVenta15"
+                         "compraVenta16 compraVenta compraVenta";
+
+}
+}
+   
+   
+
+   @media screen and (min-width: 1024px){
+    
+    .mainInicio{
+        grid-template-areas:"top1 top2  top3 top4"
+                            "top5 top6 top7 top8"
+                            "top9 top10 top top" ;
+    
+    }
+
+    /*MEDIA-QUERIES COMPRA/VENTA*/
+.mainCompraVenta{
+    grid-template-areas: "compraVenta1 compraVenta2 compraVenta3 compraVenta4 "
+                         "compraVenta5 compraVenta6 compraVenta7 compraVenta8"
+                         "compraVenta9 compraVenta10 compraVenta11 compraVenta12"
+                         "compraVenta13 compraVenta14 compraVenta15 compraVenta16";
+
+}
+li:hover{
+    transform: scale(0.9);
+    transition: 0.50s;
+    color: rgb(51, 222, 29);
+    border-bottom: 0.20rem solid;
+
+}
+
+.tops1:hover{
+    transform: scale(1.05);
+    transition: 0.50s;
+    
+}
+.tops2:hover{
+    transform: scale(1.05);
+    transition: 0.50s;
+    
+}
+.tops3:hover{
+    transform: scale(1.05);
+    transition: 0.50s;
+    
+}
+.tops4:hover{
+    transform: scale(1.05);
+    transition: 0.50s;
+    
+}
+.tops5:hover{
+    transform: scale(1.05);
+    transition: 0.50s;
+    
+}
+.tops6:hover{
+    transform: scale(1.05);
+    transition: 0.50s;
+    
+}
+.tops7:hover{
+    transform: scale(1.05);
+    transition: 0.50s;
+    
+}
+.tops8:hover{
+    transform: scale(1.05);
+    transition: 0.50s;
+    
+}
+.tops9:hover{
+    transform: scale(1.05);
+    transition: 0.50s;
+    
+}
+.tops10:hover{
+    transform: scale(1.05);
+    transition: 0.50s;
+    
+}
+
+.botonC:hover{
+    transform: scale(1.01);
+    transition: 0.50s;
+    border: 0.10rem solid rgb(43, 255, 0);
+}
+.botonV:hover{
+    transform: scale(1.01);
+    transition: 0.50s;
+    border: 0.10rem solid rgb(255, 0, 0);
+
+}
+
+
+}
+
+    
